@@ -6,6 +6,8 @@ from dash import Dash, dcc, html
 #initialise the app
 app=Dash(__name__)
 
+server=app.server
+
 markdown_text='''
 # Dash and Markdown - a pip ;)
 Dash apps **can be written in Markdown**. Dash uses the [CommonMark](http://commonmark.org/) 
